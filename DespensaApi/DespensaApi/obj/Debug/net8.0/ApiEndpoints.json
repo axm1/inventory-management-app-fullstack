@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "DeleteProducto",
+    "RelativePath": "api/Productos/id_producto_delete={id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "UpdateProducto",
+    "RelativePath": "api/Productos/id_producto_update={id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "TuProyecto.API.Controllers.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "CreateProducto",
+    "RelativePath": "api/Productos/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TuProyecto.API.Controllers.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "CreateRecibo",
+    "RelativePath": "api/Productos/insert_recibo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TuProyecto.API.Controllers.Recibo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "Login",
+    "RelativePath": "api/Productos/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TuProyecto.API.Controllers.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "GetProductos",
+    "RelativePath": "api/Productos/select_productos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TuProyecto.API.Controllers.ProductosController",
+    "Method": "GetProductosCodigo",
+    "RelativePath": "api/Productos/select_productos_codigo={codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

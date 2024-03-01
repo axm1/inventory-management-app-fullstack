@@ -1,0 +1,442 @@
+
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  
+  .contenedor_login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .contenedor_login h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .contenedor_login .contenedor_info_usuario {
+    position: relative;
+  }
+  
+  .contenedor_login .contenedor_info_usuario input {
+    width: 100%;
+    padding: 1.5rem 0px 5px 0px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .contenedor_login .contenedor_info_usuario label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .contenedor_login .contenedor_info_usuario input:focus ~ label,
+  .contenedor_login .contenedor_info_usuario input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .contenedor_login form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .contenedor_login a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  
+  .contenedor_info_usuario .toggle-button {
+    position: absolute;
+    right: 5px;
+    top: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Para que los elementos se apilen verticalmente */
+    height: 100vh;
+  }
+  .cuadrados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cuadrado {
+    width: 300px;
+    height: 300px;
+    margin: 0 40px;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+    border: 1px solid white;
+  }
+  
+  .cuadrado:hover {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  
+  .imagenesOpcionesCrudoPos {
+    height: 75%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+  }
+  .rectangulo {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: auto; 
+    height: auto; 
+    padding: 5px 20px; 
+    background-color:#03e9f4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    border-radius: 5px; 
+  }
+  .texto {
+    font-size: 18px;
+    font-weight: bold;
+    color: white; 
+    text-align: center;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 8vw; 
+  }
+  
+  
+  /* Estilos para la tabla  pos*/
+  .tabla_pos_container {
+    width: 80%; /* Ancho del contenedor */
+      margin: 0 auto; /* Centrar horizontalmente */
+  }
+  .tabla_pos {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 2%;
+  }
+  
+  .tabla_pos caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  .tabla_pos th,
+  .tabla_pos td {
+    padding: .625em;
+  }
+  
+  .tabla_pos th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos para filas impares */
+  .tabla_pos tbody tr {
+    background-color: #fff; /* Fondo blanco */
+  }
+  
+  .tabla_pos thead {
+    background: #2b86a8;
+    color: white;
+  }
+  
+  .texto_alineado_izquierda {
+    text-align: left;
+  }
+  .texto_alineado_centro {
+    text-align: center;
+  }
+  
+  .tabla_pos_container .contenedor_btns_editar_y_borrar {
+    text-align: right;
+    margin-top: 10px; /* Espacio entre la tabla y los botones */
+  }
+  
+  .tabla_pos_container .contenedor_btns_editar_y_borrar button {
+    margin-left: 10px; /* Espacio entre los botones */
+  }
+  
+  .tabla_pos_container .botones-superiores {
+    text-align: right;
+    margin-bottom: -10px;
+    font-size: 20px;
+  }
+  
+  .tabla_pos_container .botones-superiores-pos {
+    text-align: right;
+    margin-bottom: -10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tabla_pos_container .btn_tabla_pos {
+    background-color: #2b86a8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  
+  .seleccionado {
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  .popupEliminarRegitro {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .cerrarPopupBorrarRegistro {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .cerrarPopupBorrarRegistro:hover,
+  .cerrarPopupBorrarRegistro:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn_tabla_pos {
+    margin-top: 20px;
+  }
+  
+  .botonesEliminarProducto button {
+    margin: 0 10px;
+  }
+  
+  .fila-form {
+      display: flex;
+  }
+  
+  .form-group {
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .inputEditarProducto {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .labelEditarProducto {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* margin-left: 10px; */
+    width: 200px;
+    margin-right: 20px;
+    text-align: right;
+  }
+  .anadirIvaEdit  	
+  {
+    text-align: left;
+  }
+  
+  #ivaEDit
+  {
+    transform: scale(2);
+  }
+  #ivaNuevo
+  {
+    transform: scale(2);
+  }
+  .texto_alineado_derecha {
+    text-align: right;
+  }
+  
+  .input_codigo_articulo {
+    padding: 5px;
+    width: 10vw;
+  }
+  
+  .btn_agregar_articulo {
+    padding: 10px 20px;
+    background-color: #2b86a8;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  
+  .popupRecibo {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .recibo {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .encabezado_recibo h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .datos p {
+    margin: 5px 0;
+  }
+  
+  .detalle table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .detalle th,
+  .detalle td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .detalle th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .total h3 {
+    margin: 0;
+  }
+  .botones_recibo{
+
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .logout-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .logout-icon {
+    margin-right: 5px;
+  }
+  
+.boton_back{
+  margin-top: 30px !important;
+}

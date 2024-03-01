@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\axel\\logical\\DespensaApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|c:\\axel\\logical\\despensaapi\\despensaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|solutionrelative:despensaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|c:\\axel\\logical\\despensaapi\\despensaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|solutionrelative:despensaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|c:\\axel\\logical\\despensaapi\\despensaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|solutionrelative:despensaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|c:\\axel\\logical\\despensaapi\\despensaapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|solutionrelative:despensaapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|c:\\axel\\logical\\despensaapi\\despensaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67BC1DE5-D04E-46E9-8810-EB942BC9DDD2}|DespensaApi\\DespensaApi.csproj|solutionrelative:despensaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\appsettings.json",
+              "RelativeDocumentMoniker": "DespensaApi\\appsettings.json",
+              "ToolTip": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\appsettings.json",
+              "RelativeToolTip": "DespensaApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-29T20:34:23.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DespensaApi\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "DespensaApi\\Models\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T20:19:40.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "DespensaApi\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "DespensaApi\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAkwJ8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T19:12:34.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "DespensaApi\\Models\\Producto.cs",
+              "ToolTip": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Models\\Producto.cs",
+              "RelativeToolTip": "DespensaApi\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T19:08:37.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Program.cs",
+              "RelativeDocumentMoniker": "DespensaApi\\Program.cs",
+              "ToolTip": "C:\\axel\\logical\\DespensaApi\\DespensaApi\\Program.cs",
+              "RelativeToolTip": "DespensaApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T20:54:13.634Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
