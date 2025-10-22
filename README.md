@@ -35,3 +35,7 @@ Copiar código
 - **Database**: SQL Server / MySQL / PostgreSQL (adjust DB type)  
 - **Scripts**: SQL for schema and seed data  
 - **Full-stack** development showing API integration and UI  
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your_username/fullstack-inventory-management-webapp.git
+   cd fullstack-inventory-management-webapp
